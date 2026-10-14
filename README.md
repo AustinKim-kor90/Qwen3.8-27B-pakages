@@ -19,3 +19,5 @@ MODEL_PATH=/data/models/Qwen3.8-27B TP=2 bash run.sh
 
 - 기존 Gemma/EXAONE 환경과 별도 가상환경으로 설치되므로 기존 모델에 영향 없음
 - OOM 시 `MAX_LEN=65536 bash run.sh`, 텍스트 전용이면 `bash run.sh --language-model-only`
+
+자세한 설치 방법(다른 PC에서 받아 서버로 옮기는 경우 포함): [INSTALL_GUIDE.md](INSTALL_GUIDE.md)
